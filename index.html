@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Exercise picker</title>
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<section>
+			<h1 class="heading">Exercise picker</h1>
+			<button data-push="changeExercise">Generate exercises</button>
+			<table>
+				<tr>
+					<th>Exercise<br><small>
+							<pre>exercise.name</pre>
+						</small>
+					</th>
+					<th>Sets<br><small>
+							<pre>exercise.sets</pre>
+						</small></th>
+					<th>Reps<br><small>
+							<pre>exercise.reps</pre>
+						</small></th>
+					<th>Options<br><small>
+							<pre>exercise.options <br>{ type, distance, duration, weight }</pre>
+						</small></th>
+					</th>
+				<tr data-group="1">
+					<td data-exercise="name">Waiting for exercise 1</td>
+					<td data-exercise="sets">Waiting for sets</td>
+					<td data-exercise="reps">Waiting for reps</td>
+					<td data-exercise="options">Waiting for options</td>
+				</tr>
+				<tr data-group="2">
+					<td data-exercise="name">Waiting for exercise 2</td>
+					<td data-exercise="sets">Waiting for sets</td>
+					<td data-exercise="reps">Waiting for reps</td>
+					<td data-exercise="options">Waiting for options</td>
+				</tr>
+				<tr data-group="3">
+					<td data-exercise="name">Waiting for exercise 3</td>
+					<td data-exercise="sets">Waiting for sets</td>
+					<td data-exercise="reps">Waiting for reps</td>
+					<td data-exercise="options">Waiting for options</td>
+				</tr>
+			</table>
+			<!--<hr>
+			<form>
+				<h2>Add a new animal</h2>
+				<input data-value="addAnimal" type="text" name="addExercise" />
+				<button data-push="addExercise">Add</button>
+			</form>-->
+		</section>
+
+	</div>
+
+</body>
+
+<script src="/main.js"></script>
+
+</html>
